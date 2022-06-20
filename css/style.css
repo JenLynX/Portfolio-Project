@@ -5,28 +5,31 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
+.appWrap {
+  padding: 100px;
+}
 
 h1 {
   font-family: "Radio Canada", sans-serif;
-  position: relative;
-  top: 120px;
-  left: 250px;
+  display: block;
+  margin: 0 auto;
+  padding-top: 16px;
+  padding-left: 20px;
+  text-align: center;
 }
 h2 {
   font-family: "Marcellus", serif;
-  position: relative;
-  top: 120px;
-  left: 245px;
+  display: block;
+  margin: 0 auto;
+  padding-left: 20px;
+  text-align: center;
 }
 .me {
   font-size: 79px;
-  padding-bottom: 12px;
-  position: relative;
-  right: 10px;
+  padding-bottom: 20px;
 }
 #birds {
-  max-height: 230px;
-  position: relative;
-  left: 850px;
-  bottom: 100px;
+  max-height: 260px;
+  padding-left: 100px;
+  padding-bottom: 40px;
 }
