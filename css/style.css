@@ -65,14 +65,19 @@ h2 {
   color: var(--button-text);
   display: block;
   margin: 0 auto;
+  font-family: "Radio Canada", sans-serif;
 }
 h3 {
   font-family: "Joan", serif;
   font-size: 33px;
 }
+p {
+  font-family: "Crimson Text", serif;
+  font-size: 18px;
+}
 .primary-link {
   border-radius: 8px;
-
+  font-family: "Joan", serif;
   padding: 20px 15px;
   text-decoration: none;
   text-transform: capitalize;
@@ -151,5 +156,4 @@ h3 {
   #heading {
     min-width: 200px;
   }
-  
 }
