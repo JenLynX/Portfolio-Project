@@ -70,6 +70,15 @@ h3 {
   font-family: "Joan", serif;
   font-size: 33px;
 }
+.primary-link {
+  border-radius: 8px;
+
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  background: var(--main-color);
+  color: var(--button-text);
+}
 
 @media (max-width: 1069px) {
   h1 {
@@ -129,12 +138,18 @@ h3 {
   h3 {
     font-size: 23px;
   }
-  p{
+  p {
     font-size: 14px;
+  }
+  .app-link {
+    display: block;
+    text-align: center;
+    margin: 0 20px;
   }
 }
 @media (max-width: 620px) {
   #heading {
     min-width: 200px;
   }
+  
 }
