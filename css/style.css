@@ -33,6 +33,24 @@ h2 {
   padding-left: 100px;
   padding-bottom: 40px;
 }
-.content{
+.content {
   padding-top: 140px;
+}
+@media (max-width: 830px) {
+  h1 {
+    font-size: 20px;
+  }
+  .me {
+    font-size: 36px;
+  }
+  #birds {
+    max-height: 160px;
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+  }
+  h2 {
+    font-size: 20px;
+    padding-bottom: 10px;
+  }
 }
