@@ -67,6 +67,13 @@ h2 {
   margin: 0 auto;
   font-family: "Radio Canada", sans-serif;
 }
+a:hover {
+  background: var(--button-text);
+  color: var(--main-color);
+  border: 2px solid var(--main-color);
+  transition: ease-in-out;
+  cursor: pointer;
+}
 h3 {
   font-family: "Joan", serif;
   font-size: 33px;
