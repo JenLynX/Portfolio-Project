@@ -50,7 +50,7 @@ h2 {
 }
 
 .projects {
-  padding: 130px;
+  padding: 30px;
 }
 .email {
   padding-top: 20px;
@@ -161,6 +161,9 @@ p {
 }
 footer {
   font-size: 25px;
+}
+footer a {
+  text-decoration: none;
 }
 
 @media (max-width: 1069px) {
