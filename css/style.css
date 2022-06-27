@@ -44,6 +44,10 @@ h2 {
   padding-bottom: 20px;
   text-align: center;
 }
+
+.projects {
+  padding-top: 100px;
+}
 .email {
   padding-top: 20px;
   font-size: 28px;
@@ -51,6 +55,20 @@ h2 {
 .me {
   font-size: 79px;
   padding-bottom: 20px;
+}
+.git {
+  font-family: "Marcellus", serif;
+  font-size: 28px;
+  opacity: 0.9;
+  display: block;
+  margin: 0 auto;
+
+  padding-bottom: 20px;
+  text-align: center;
+}
+.git a {
+  text-decoration: none;
+  color: var(--main-color);
 }
 #birds {
   max-height: 260px;
@@ -64,6 +82,7 @@ h2 {
 }
 #laptop {
   max-height: 180px;
+  padding-bottom: 20px;
 }
 .content {
   padding-top: 140px;
