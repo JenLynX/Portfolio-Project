@@ -26,6 +26,10 @@ body {
 #heading {
   min-width: 450px;
 }
+#heading-connect {
+  min-width: 450px;
+  padding-top: 10px;
+}
 
 h1 {
   font-family: "Radio Canada", sans-serif;
@@ -46,7 +50,7 @@ h2 {
 }
 
 .projects {
-  padding-top: 100px;
+  padding: 130px;
 }
 .email {
   padding-top: 20px;
@@ -80,16 +84,19 @@ h2 {
   padding-bottom: 6px;
 }
 #tree {
-  max-height: 200px;
+  max-height: 230px;
   padding-top: 25px;
   border-radius: 30px;
 }
 #laptop {
   max-height: 180px;
-  padding-bottom: 10px;
 }
 .content {
   padding-top: 140px;
+}
+.content-projects {
+  padding-left: 90px;
+  padding-right: 90px;
 }
 .navigation-link a {
   border-radius: 8px;
@@ -148,6 +155,9 @@ p {
 }
 #grid {
   margin-top: 70px;
+}
+.bottom {
+  padding: 60px;
 }
 
 @media (max-width: 1069px) {
