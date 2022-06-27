@@ -52,6 +52,10 @@ h2 {
   padding-top: 20px;
   font-size: 28px;
 }
+.email a {
+  text-decoration: none;
+  color: var(--main-color);
+}
 .me {
   font-size: 79px;
   padding-bottom: 20px;
@@ -82,7 +86,7 @@ h2 {
 }
 #laptop {
   max-height: 180px;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
 }
 .content {
   padding-top: 140px;
@@ -170,6 +174,9 @@ p {
   .email {
     font-size: 24px;
   }
+  .git {
+    font-size: 20px;
+  }
 
   .contact-link {
     display: block;
@@ -238,6 +245,9 @@ p {
   }
   .email {
     font-size: 19px;
+  }
+  .git {
+    font-size: 17px;
   }
   h3 {
     font-size: 23px;
