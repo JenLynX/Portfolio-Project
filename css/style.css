@@ -160,7 +160,7 @@ p {
   margin-top: 70px;
 }
 .bottom {
-  padding-top: 70px;
+  padding-top: 80px;
 }
 footer {
   font-size: 25px;
@@ -168,10 +168,16 @@ footer {
 footer a {
   text-decoration: none;
   color: var(--main-color);
+  font-family:'Radio Canada', sans-serif; 
+  
 }
 footer a:hover {
   cursor: pointer;
   color: #9db6da;
+}
+.connection{
+  opacity: 0.8;
+  font-family:'Crimson Text', serif; 
 }
 @media (max-width: 1069px) {
   h1 {
