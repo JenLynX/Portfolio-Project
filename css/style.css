@@ -60,6 +60,10 @@ h2 {
   text-decoration: none;
   color: var(--main-color);
 }
+.email a:hover {
+  cursor: pointer;
+  color: #9db6da;
+}
 .me {
   font-size: 79px;
   padding-bottom: 20px;
@@ -78,6 +82,10 @@ h2 {
   text-decoration: none;
   color: var(--main-color);
 }
+.git a:hover {
+  cursor: pointer;
+  color: #9db6da;
+}
 #birds {
   max-height: 260px;
   padding-left: 20px;
@@ -94,13 +102,15 @@ h2 {
 #cartoon {
   padding-top: 60px;
 }
+#garden {
+  max-height: 160px;
+  display: block;
+  margin: 0 auto;
+}
 .content {
   padding-top: 140px;
 }
-.content-projects {
-  padding-left: 90px;
-  padding-right: 90px;
-}
+
 .navigation-link a {
   border-radius: 8px;
   padding: 20px 15px;
@@ -168,16 +178,15 @@ footer {
 footer a {
   text-decoration: none;
   color: var(--main-color);
-  font-family:'Radio Canada', sans-serif; 
-  
+  font-family: "Radio Canada", sans-serif;
 }
 footer a:hover {
   cursor: pointer;
   color: #9db6da;
 }
-.connection{
+.connection {
   opacity: 0.8;
-  font-family:'Crimson Text', serif; 
+  font-family: "Crimson Text", serif;
 }
 @media (max-width: 1069px) {
   h1 {
@@ -269,6 +278,9 @@ footer a:hover {
 
     padding: 0;
   }
+  #garden {
+    max-height: 120px;
+  }
   h2 {
     font-size: 23px;
   }
@@ -292,9 +304,15 @@ footer a:hover {
     text-align: center;
     margin: 0 20px;
   }
+  footer {
+    font-size: 18px;
+  }
 }
 @media (max-width: 620px) {
   #heading {
     min-width: 200px;
+  }
+  footer {
+    font-size: 15px;
   }
 }
